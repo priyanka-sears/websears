@@ -1,0 +1,134 @@
+
+
+
+.container{
+
+	 display:flex;
+	justify-content:space-around;
+	flex-wrap:wrap;
+     
+    
+     width:100%;		
+}
+
+
+.left{
+	flex-grow:1;
+	margin:10px;
+	height:auto; 
+	width: 30%;
+    padding:10px; 
+	
+	float:left;
+}
+
+.right{ 
+	
+	width:50%;
+    flex-grow:1;
+    
+	margin:10px;
+	padding:10px
+	float:left;
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+	//clear:both;
+	
+	background-color:lightblue;
+	height:auto; 
+	width:100%; 
+	display:flex;
+	justify-content:space-around;
+	flex-wrap:wrap;
+       
+}
+
+
+
+
+.header{ color:white;
+        text-align:center;
+        border-radius:10px;
+
+	background-color:black;
+	height:80px;
+	width:100%;
+}
+
+
+
+.l1{
+    flex-grow:1; 
+	background-color:white
+	float:left;
+	width:30%;
+	margin:10px;
+	padding:10px;
+	
+
+}
+.r1
+{
+flex-grow:1;
+float:left;
+width:50%;
+margin:10px;
+padding:10px;
+
+
+
+}
+#id
+{
+border:1px solid black;
+
+}
+@media screen and (max-width: 900px) {
+	.left, .right{
+		width: 70%;	
+		margin-left:20px;
+		
+	}
+} 
+
+@media screen and (max-width: 680px) {
+	.left, .right{
+		clear:both;
+		padding :20px;
+		width:60%
+		margin-left:20px;	
+	
+	}
+	
+} 
+@media screen and (max-width: 900px) {
+	.l1, .r1{
+		width: 60%;	
+		margin-left:20px;
+		
+	}
+} 
+
+@media screen and (max-width: 680px) {
+	.l1, .r1{
+		clear:both;
+		padding :20px;
+		width:50%
+		margin-left:20px;	
+	
+	}
+	
+} 
+
+
