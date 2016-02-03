@@ -89,10 +89,24 @@ padding:10px;
 
 
 }
-#id
-{
-border:1px solid black;
 
+#odiv{
+height:200px;
+}
+
+
+.outerdiv
+{
+height:150px;
+width=40%;
+margin:10px;
+border:1px solid black;
+box-sizing:border-box;
+
+}
+.innerdiv
+{
+float:right;
 }
 @media screen and (max-width: 900px) {
 	.left, .right{
