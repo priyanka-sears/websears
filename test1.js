@@ -1,5 +1,5 @@
 var myFirebaseRef = new Firebase("https://page102.firebaseio.com/");
-var x==window.location.hash.substring(1);
+var x=window.location.hash.substring(1);
 if(x=="txt1"){
 
 myFirebaseRef.child("sears").on("value", function(snapshot) {
